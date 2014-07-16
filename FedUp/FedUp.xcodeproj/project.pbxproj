@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528C1BEC19761AC60025911D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C1BEB19761AC60025911D /* Foundation.framework */; };
+		528C1BEE19761AC60025911D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C1BED19761AC60025911D /* CoreGraphics.framework */; };
+		528C1BF019761AC60025911D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C1BEF19761AC60025911D /* UIKit.framework */; };
+		528C1BF619761AC60025911D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528C1BF419761AC60025911D /* InfoPlist.strings */; };
+		528C1BF819761AC60025911D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C1BF719761AC60025911D /* main.m */; };
+		528C1BFC19761AC60025911D /* JAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C1BFB19761AC60025911D /* JAMAppDelegate.m */; };
+		528C1BFF19761AC60025911D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 528C1BFD19761AC60025911D /* Main.storyboard */; };
+		528C1C0219761AC60025911D /* JAMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C1C0119761AC60025911D /* JAMFirstViewController.m */; };
+		528C1C0519761AC60025911D /* JAMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C1C0419761AC60025911D /* JAMSecondViewController.m */; };
+		528C1C0719761AC60025911D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528C1C0619761AC60025911D /* Images.xcassets */; };
+		528C1C0E19761AC60025911D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C1C0D19761AC60025911D /* XCTest.framework */; };
+		528C1C0F19761AC60025911D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C1BEB19761AC60025911D /* Foundation.framework */; };
+		528C1C1019761AC60025911D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528C1BEF19761AC60025911D /* UIKit.framework */; };
+		528C1C1819761AC60025911D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528C1C1619761AC60025911D /* InfoPlist.strings */; };
+		528C1C1A19761AC60025911D /* FedUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528C1C1919761AC60025911D /* FedUpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528C1C1119761AC60025911D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528C1BE019761AC60025911D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528C1BE719761AC60025911D;
+			remoteInfo = FedUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528C1BE819761AC60025911D /* FedUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FedUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528C1BEB19761AC60025911D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		528C1BED19761AC60025911D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		528C1BEF19761AC60025911D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		528C1BF319761AC60025911D /* FedUp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FedUp-Info.plist"; sourceTree = "<group>"; };
+		528C1BF519761AC60025911D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		528C1BF719761AC60025911D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		528C1BF919761AC60025911D /* FedUp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FedUp-Prefix.pch"; sourceTree = "<group>"; };
+		528C1BFA19761AC60025911D /* JAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMAppDelegate.h; sourceTree = "<group>"; };
+		528C1BFB19761AC60025911D /* JAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMAppDelegate.m; sourceTree = "<group>"; };
+		528C1BFE19761AC60025911D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		528C1C0019761AC60025911D /* JAMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMFirstViewController.h; sourceTree = "<group>"; };
+		528C1C0119761AC60025911D /* JAMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMFirstViewController.m; sourceTree = "<group>"; };
+		528C1C0319761AC60025911D /* JAMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMSecondViewController.h; sourceTree = "<group>"; };
+		528C1C0419761AC60025911D /* JAMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMSecondViewController.m; sourceTree = "<group>"; };
+		528C1C0619761AC60025911D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		528C1C0C19761AC60025911D /* FedUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FedUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528C1C0D19761AC60025911D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		528C1C1519761AC60025911D /* FedUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FedUpTests-Info.plist"; sourceTree = "<group>"; };
+		528C1C1719761AC60025911D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		528C1C1919761AC60025911D /* FedUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FedUpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528C1BE519761AC60025911D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C1BEE19761AC60025911D /* CoreGraphics.framework in Frameworks */,
+				528C1BF019761AC60025911D /* UIKit.framework in Frameworks */,
+				528C1BEC19761AC60025911D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528C1C0919761AC60025911D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C1C0E19761AC60025911D /* XCTest.framework in Frameworks */,
+				528C1C1019761AC60025911D /* UIKit.framework in Frameworks */,
+				528C1C0F19761AC60025911D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528C1BDF19761AC60025911D = {
+			isa = PBXGroup;
+			children = (
+				528C1BF119761AC60025911D /* FedUp */,
+				528C1C1319761AC60025911D /* FedUpTests */,
+				528C1BEA19761AC60025911D /* Frameworks */,
+				528C1BE919761AC60025911D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528C1BE919761AC60025911D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528C1BE819761AC60025911D /* FedUp.app */,
+				528C1C0C19761AC60025911D /* FedUpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528C1BEA19761AC60025911D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				528C1BEB19761AC60025911D /* Foundation.framework */,
+				528C1BED19761AC60025911D /* CoreGraphics.framework */,
+				528C1BEF19761AC60025911D /* UIKit.framework */,
+				528C1C0D19761AC60025911D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		528C1BF119761AC60025911D /* FedUp */ = {
+			isa = PBXGroup;
+			children = (
+				528C1BFA19761AC60025911D /* JAMAppDelegate.h */,
+				528C1BFB19761AC60025911D /* JAMAppDelegate.m */,
+				528C1BFD19761AC60025911D /* Main.storyboard */,
+				528C1C0019761AC60025911D /* JAMFirstViewController.h */,
+				528C1C0119761AC60025911D /* JAMFirstViewController.m */,
+				528C1C0319761AC60025911D /* JAMSecondViewController.h */,
+				528C1C0419761AC60025911D /* JAMSecondViewController.m */,
+				528C1C0619761AC60025911D /* Images.xcassets */,
+				528C1BF219761AC60025911D /* Supporting Files */,
+			);
+			path = FedUp;
+			sourceTree = "<group>";
+		};
+		528C1BF219761AC60025911D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528C1BF319761AC60025911D /* FedUp-Info.plist */,
+				528C1BF419761AC60025911D /* InfoPlist.strings */,
+				528C1BF719761AC60025911D /* main.m */,
+				528C1BF919761AC60025911D /* FedUp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		528C1C1319761AC60025911D /* FedUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				528C1C1919761AC60025911D /* FedUpTests.m */,
+				528C1C1419761AC60025911D /* Supporting Files */,
+			);
+			path = FedUpTests;
+			sourceTree = "<group>";
+		};
+		528C1C1419761AC60025911D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				528C1C1519761AC60025911D /* FedUpTests-Info.plist */,
+				528C1C1619761AC60025911D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528C1BE719761AC60025911D /* FedUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528C1C1D19761AC60025911D /* Build configuration list for PBXNativeTarget "FedUp" */;
+			buildPhases = (
+				528C1BE419761AC60025911D /* Sources */,
+				528C1BE519761AC60025911D /* Frameworks */,
+				528C1BE619761AC60025911D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FedUp;
+			productName = FedUp;
+			productReference = 528C1BE819761AC60025911D /* FedUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528C1C0B19761AC60025911D /* FedUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528C1C2019761AC60025911D /* Build configuration list for PBXNativeTarget "FedUpTests" */;
+			buildPhases = (
+				528C1C0819761AC60025911D /* Sources */,
+				528C1C0919761AC60025911D /* Frameworks */,
+				528C1C0A19761AC60025911D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528C1C1219761AC60025911D /* PBXTargetDependency */,
+			);
+			name = FedUpTests;
+			productName = FedUpTests;
+			productReference = 528C1C0C19761AC60025911D /* FedUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528C1BE019761AC60025911D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Pino";
+				TargetAttributes = {
+					528C1C0B19761AC60025911D = {
+						TestTargetID = 528C1BE719761AC60025911D;
+					};
+				};
+			};
+			buildConfigurationList = 528C1BE319761AC60025911D /* Build configuration list for PBXProject "FedUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528C1BDF19761AC60025911D;
+			productRefGroup = 528C1BE919761AC60025911D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528C1BE719761AC60025911D /* FedUp */,
+				528C1C0B19761AC60025911D /* FedUpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528C1BE619761AC60025911D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C1C0719761AC60025911D /* Images.xcassets in Resources */,
+				528C1BF619761AC60025911D /* InfoPlist.strings in Resources */,
+				528C1BFF19761AC60025911D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528C1C0A19761AC60025911D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C1C1819761AC60025911D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528C1BE419761AC60025911D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C1BF819761AC60025911D /* main.m in Sources */,
+				528C1BFC19761AC60025911D /* JAMAppDelegate.m in Sources */,
+				528C1C0219761AC60025911D /* JAMFirstViewController.m in Sources */,
+				528C1C0519761AC60025911D /* JAMSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528C1C0819761AC60025911D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528C1C1A19761AC60025911D /* FedUpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528C1C1219761AC60025911D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528C1BE719761AC60025911D /* FedUp */;
+			targetProxy = 528C1C1119761AC60025911D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		528C1BF419761AC60025911D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528C1BF519761AC60025911D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		528C1BFD19761AC60025911D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528C1BFE19761AC60025911D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		528C1C1619761AC60025911D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				528C1C1719761AC60025911D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		528C1C1B19761AC60025911D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		528C1C1C19761AC60025911D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528C1C1E19761AC60025911D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FedUp/FedUp-Prefix.pch";
+				INFOPLIST_FILE = "FedUp/FedUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		528C1C1F19761AC60025911D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FedUp/FedUp-Prefix.pch";
+				INFOPLIST_FILE = "FedUp/FedUp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		528C1C2119761AC60025911D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FedUp.app/FedUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FedUp/FedUp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FedUpTests/FedUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		528C1C2219761AC60025911D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FedUp.app/FedUp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FedUp/FedUp-Prefix.pch";
+				INFOPLIST_FILE = "FedUpTests/FedUpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528C1BE319761AC60025911D /* Build configuration list for PBXProject "FedUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528C1C1B19761AC60025911D /* Debug */,
+				528C1C1C19761AC60025911D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528C1C1D19761AC60025911D /* Build configuration list for PBXNativeTarget "FedUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528C1C1E19761AC60025911D /* Debug */,
+				528C1C1F19761AC60025911D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		528C1C2019761AC60025911D /* Build configuration list for PBXNativeTarget "FedUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528C1C2119761AC60025911D /* Debug */,
+				528C1C2219761AC60025911D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528C1BE019761AC60025911D /* Project object */;
+}
